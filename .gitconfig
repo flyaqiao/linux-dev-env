@@ -1,0 +1,41 @@
+[diff]
+	tool = bc4
+[difftool]
+	prompt = false
+[core]
+	quotepath = false
+	filemode = false
+	editor = vim
+	whitespace = cr-at-eol
+[gui]
+	encoding = utf-8 
+[i18n]
+	commitencoding = utf-8
+	logoutputencoding = utf-8 
+[user]
+	name = cql
+	email = CaoQiaolian@zjhqtech.com
+[color]
+	ui = true
+[alias]
+  lf = log --pretty=format:'%h - %ad %an\t: %s'
+  lg = log --oneline
+  co = checkout
+  cp = cherry-pick
+  br = branch
+  ci = commit
+  st = status
+  dc = diff --cached
+  dt = difftool
+  sl = stash list --date=short
+  sa = stash apply
+  amk = am --keep-cr
+  brs = branch --sort committerdate --format '%(committerdate:short) %(refname:short)'
+[difftool "bc4"]
+	cmd = "/mnt/c/Program\\ Files/Beyond\\ Compare\\ 4/BComp.exe \"$LOCAL\" \"$REMOTE\""
+[push]
+	default = simple
+[log]
+	date = short
+[credential]
+	helper = store
