@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/flyaqiao/nfsroot/buildroot/board/sipeed/lichee/nano/devicetree/linux'
+let g:netrw_dirhist_2='/home/flyaqiao/nfsroot/buildroot/board/sipeed/lichee/nano/devicetree'
+let g:netrw_dirhist_1='/home/flyaqiao/mt7688/openwrt-21.02/package/system'
